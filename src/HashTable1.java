@@ -6,13 +6,14 @@ public class HashTable1 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Hashtable<String, String> availability = new Hashtable<String, String>();
+		Hashtable<String, Double> availability = new Hashtable<String, Double>();
 		
-		availability.put("Oct", "125");
-		availability.put("Nov", "130");
+		availability.put("Oct", new Double(123.40));
+		availability.put("Nov", new Double(32.22));
 		
 		System.out.println("Hash Table Objects "+availability);
 		
+		System.out.println("Get Nov.price"+ availability.get("Nov"));
 		
 
 	}
