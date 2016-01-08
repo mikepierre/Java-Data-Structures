@@ -15,10 +15,9 @@ public class LinkedList1 {
 		
 		ll.add("item 3");
 		
-		
 		System.out.println("New List" + ll);
 	
-		for(int i = 0; i < ll.size(); i++){
+		for(int i = 0; i < ll.size(); ++i){
 			System.out.println("Result "+ i +" " + ll.get(i));
 		}
 		
